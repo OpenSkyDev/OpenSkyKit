@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94666F591AFF32BC001E2F0D /* UIView+OpenSkyHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 94666F571AFF32BC001E2F0D /* UIView+OpenSkyHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94666F5A1AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 94666F581AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m */; };
+		94666F5F1AFF3583001E2F0D /* OSKHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 94666F5D1AFF3583001E2F0D /* OSKHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94666F601AFF3583001E2F0D /* OSKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 94666F5E1AFF3583001E2F0D /* OSKHelpers.m */; };
+		94D5EBE01AF9958C00490632 /* OpenSkyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D5EBDF1AF9958C00490632 /* OpenSkyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94D5EBE61AF9958C00490632 /* OpenSkyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5EBDA1AF9958C00490632 /* OpenSkyKit.framework */; };
+		94D5EBED1AF9958C00490632 /* OpenSkyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5EBEC1AF9958C00490632 /* OpenSkyKitTests.swift */; };
+		94D5EC071AF995CB00490632 /* OSKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D5EC051AF995CB00490632 /* OSKViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94D5EC081AF995CB00490632 /* OSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5EC061AF995CB00490632 /* OSKViewController.m */; };
+		94D5EC101AF997F200490632 /* OSKTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D5EC0E1AF997F200490632 /* OSKTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94D5EC111AF997F200490632 /* OSKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D5EC0F1AF997F200490632 /* OSKTableViewController.m */; };
+		94F5AE8A1AF99D4900989F27 /* OSKFetchedResultsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F5AE881AF99D4900989F27 /* OSKFetchedResultsTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F5AE8B1AF99D4900989F27 /* OSKFetchedResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F5AE891AF99D4900989F27 /* OSKFetchedResultsTableViewController.m */; };
+		94FC9BE81AFB2C7500486572 /* OSKTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FC9BE61AFB2C7500486572 /* OSKTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94FC9BE91AFB2C7500486572 /* OSKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FC9BE71AFB2C7500486572 /* OSKTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94D5EBE71AF9958C00490632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D5EBD11AF9958C00490632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D5EBD91AF9958C00490632;
+			remoteInfo = OpenSkyKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94666F571AFF32BC001E2F0D /* UIView+OpenSkyHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OpenSkyHelpers.h"; sourceTree = "<group>"; };
+		94666F581AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OpenSkyHelpers.m"; sourceTree = "<group>"; };
+		94666F5D1AFF3583001E2F0D /* OSKHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKHelpers.h; sourceTree = "<group>"; };
+		94666F5E1AFF3583001E2F0D /* OSKHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKHelpers.m; sourceTree = "<group>"; };
+		94D5EBDA1AF9958C00490632 /* OpenSkyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenSkyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D5EBDE1AF9958C00490632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D5EBDF1AF9958C00490632 /* OpenSkyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSkyKit.h; sourceTree = "<group>"; };
+		94D5EBE51AF9958C00490632 /* OpenSkyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSkyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D5EBEB1AF9958C00490632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D5EBEC1AF9958C00490632 /* OpenSkyKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSkyKitTests.swift; sourceTree = "<group>"; };
+		94D5EC051AF995CB00490632 /* OSKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKViewController.h; sourceTree = "<group>"; };
+		94D5EC061AF995CB00490632 /* OSKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKViewController.m; sourceTree = "<group>"; };
+		94D5EC0E1AF997F200490632 /* OSKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKTableViewController.h; sourceTree = "<group>"; };
+		94D5EC0F1AF997F200490632 /* OSKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKTableViewController.m; sourceTree = "<group>"; };
+		94F5AE881AF99D4900989F27 /* OSKFetchedResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKFetchedResultsTableViewController.h; sourceTree = "<group>"; };
+		94F5AE891AF99D4900989F27 /* OSKFetchedResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKFetchedResultsTableViewController.m; sourceTree = "<group>"; };
+		94FC9BE61AFB2C7500486572 /* OSKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKTableViewCell.h; sourceTree = "<group>"; };
+		94FC9BE71AFB2C7500486572 /* OSKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D5EBD61AF9958C00490632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D5EBE21AF9958C00490632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D5EBE61AF9958C00490632 /* OpenSkyKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94666F5B1AFF32BF001E2F0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94666F571AFF32BC001E2F0D /* UIView+OpenSkyHelpers.h */,
+				94666F581AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		94666F5C1AFF3574001E2F0D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				94666F5D1AFF3583001E2F0D /* OSKHelpers.h */,
+				94666F5E1AFF3583001E2F0D /* OSKHelpers.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		94D5EBD01AF9958C00490632 = {
+			isa = PBXGroup;
+			children = (
+				94D5EBDC1AF9958C00490632 /* OpenSkyKit */,
+				94D5EBE91AF9958C00490632 /* OpenSkyKitTests */,
+				94D5EBDB1AF9958C00490632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94D5EBDB1AF9958C00490632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D5EBDA1AF9958C00490632 /* OpenSkyKit.framework */,
+				94D5EBE51AF9958C00490632 /* OpenSkyKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D5EBDC1AF9958C00490632 /* OpenSkyKit */ = {
+			isa = PBXGroup;
+			children = (
+				94D5EBDF1AF9958C00490632 /* OpenSkyKit.h */,
+				94666F5C1AFF3574001E2F0D /* Helpers */,
+				94666F5B1AFF32BF001E2F0D /* Extensions */,
+				94FC9BE51AFB2C5300486572 /* Table View Cells */,
+				94D5EC091AF995D900490632 /* View Controllers */,
+				94D5EBDD1AF9958C00490632 /* Supporting Files */,
+			);
+			path = OpenSkyKit;
+			sourceTree = "<group>";
+		};
+		94D5EBDD1AF9958C00490632 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D5EBDE1AF9958C00490632 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D5EBE91AF9958C00490632 /* OpenSkyKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				94D5EBEC1AF9958C00490632 /* OpenSkyKitTests.swift */,
+				94D5EBEA1AF9958C00490632 /* Supporting Files */,
+			);
+			path = OpenSkyKitTests;
+			sourceTree = "<group>";
+		};
+		94D5EBEA1AF9958C00490632 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D5EBEB1AF9958C00490632 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D5EC091AF995D900490632 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94D5EC051AF995CB00490632 /* OSKViewController.h */,
+				94D5EC061AF995CB00490632 /* OSKViewController.m */,
+				94D5EC0E1AF997F200490632 /* OSKTableViewController.h */,
+				94D5EC0F1AF997F200490632 /* OSKTableViewController.m */,
+				94F5AE881AF99D4900989F27 /* OSKFetchedResultsTableViewController.h */,
+				94F5AE891AF99D4900989F27 /* OSKFetchedResultsTableViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		94FC9BE51AFB2C5300486572 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				94FC9BE61AFB2C7500486572 /* OSKTableViewCell.h */,
+				94FC9BE71AFB2C7500486572 /* OSKTableViewCell.m */,
+			);
+			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94D5EBD71AF9958C00490632 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D5EC101AF997F200490632 /* OSKTableViewController.h in Headers */,
+				94F5AE8A1AF99D4900989F27 /* OSKFetchedResultsTableViewController.h in Headers */,
+				94FC9BE81AFB2C7500486572 /* OSKTableViewCell.h in Headers */,
+				94666F5F1AFF3583001E2F0D /* OSKHelpers.h in Headers */,
+				94666F591AFF32BC001E2F0D /* UIView+OpenSkyHelpers.h in Headers */,
+				94D5EBE01AF9958C00490632 /* OpenSkyKit.h in Headers */,
+				94D5EC071AF995CB00490632 /* OSKViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		94D5EBD91AF9958C00490632 /* OpenSkyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D5EBF01AF9958C00490632 /* Build configuration list for PBXNativeTarget "OpenSkyKit" */;
+			buildPhases = (
+				94D5EBD51AF9958C00490632 /* Sources */,
+				94D5EBD61AF9958C00490632 /* Frameworks */,
+				94D5EBD71AF9958C00490632 /* Headers */,
+				94D5EBD81AF9958C00490632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSkyKit;
+			productName = OpenSkyKit;
+			productReference = 94D5EBDA1AF9958C00490632 /* OpenSkyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94D5EBE41AF9958C00490632 /* OpenSkyKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D5EBF31AF9958C00490632 /* Build configuration list for PBXNativeTarget "OpenSkyKitTests" */;
+			buildPhases = (
+				94D5EBE11AF9958C00490632 /* Sources */,
+				94D5EBE21AF9958C00490632 /* Frameworks */,
+				94D5EBE31AF9958C00490632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D5EBE81AF9958C00490632 /* PBXTargetDependency */,
+			);
+			name = OpenSkyKitTests;
+			productName = OpenSkyKitTests;
+			productReference = 94D5EBE51AF9958C00490632 /* OpenSkyKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D5EBD11AF9958C00490632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "OpenSky, LLC";
+				TargetAttributes = {
+					94D5EBD91AF9958C00490632 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					94D5EBE41AF9958C00490632 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 94D5EBD41AF9958C00490632 /* Build configuration list for PBXProject "OpenSkyKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94D5EBD01AF9958C00490632;
+			productRefGroup = 94D5EBDB1AF9958C00490632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D5EBD91AF9958C00490632 /* OpenSkyKit */,
+				94D5EBE41AF9958C00490632 /* OpenSkyKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D5EBD81AF9958C00490632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D5EBE31AF9958C00490632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D5EBD51AF9958C00490632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D5EC081AF995CB00490632 /* OSKViewController.m in Sources */,
+				94666F601AFF3583001E2F0D /* OSKHelpers.m in Sources */,
+				94666F5A1AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m in Sources */,
+				94FC9BE91AFB2C7500486572 /* OSKTableViewCell.m in Sources */,
+				94D5EC111AF997F200490632 /* OSKTableViewController.m in Sources */,
+				94F5AE8B1AF99D4900989F27 /* OSKFetchedResultsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D5EBE11AF9958C00490632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D5EBED1AF9958C00490632 /* OpenSkyKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94D5EBE81AF9958C00490632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D5EBD91AF9958C00490632 /* OpenSkyKit */;
+			targetProxy = 94D5EBE71AF9958C00490632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94D5EBEE1AF9958C00490632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94D5EBEF1AF9958C00490632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94D5EBF11AF9958C00490632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OpenSkyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94D5EBF21AF9958C00490632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OpenSkyKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		94D5EBF41AF9958C00490632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenSkyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94D5EBF51AF9958C00490632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OpenSkyKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D5EBD41AF9958C00490632 /* Build configuration list for PBXProject "OpenSkyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D5EBEE1AF9958C00490632 /* Debug */,
+				94D5EBEF1AF9958C00490632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D5EBF01AF9958C00490632 /* Build configuration list for PBXNativeTarget "OpenSkyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D5EBF11AF9958C00490632 /* Debug */,
+				94D5EBF21AF9958C00490632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D5EBF31AF9958C00490632 /* Build configuration list for PBXNativeTarget "OpenSkyKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D5EBF41AF9958C00490632 /* Debug */,
+				94D5EBF51AF9958C00490632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D5EBD11AF9958C00490632 /* Project object */;
+}
