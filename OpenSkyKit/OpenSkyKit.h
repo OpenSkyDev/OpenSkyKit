@@ -13,6 +13,10 @@
 #import <OpenSkyKit/OSKFetchedResultsTableViewController.h>
 #import <OpenSkyKit/OSKTableViewCell.h>
 
+// MARK: - Collection View
+#import <OpenSkyKit/OSKCollectionViewController.h>
+#import <OpenSkyKit/OSKCollectionViewCell.h>
+
 // MARK: - Extensions
 #import <OpenSkyKit/UIView+OpenSkyHelpers.h>
 

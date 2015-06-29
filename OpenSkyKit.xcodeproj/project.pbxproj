@@ -11,6 +11,10 @@
 		94666F5A1AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 94666F581AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m */; };
 		94666F5F1AFF3583001E2F0D /* OSKHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 94666F5D1AFF3583001E2F0D /* OSKHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94666F601AFF3583001E2F0D /* OSKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 94666F5E1AFF3583001E2F0D /* OSKHelpers.m */; };
+		94A96BA01B40D1370081C572 /* OSKCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A96B9E1B40D1370081C572 /* OSKCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A96BA11B40D1370081C572 /* OSKCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A96B9F1B40D1370081C572 /* OSKCollectionViewController.m */; };
+		94A96BA51B40D3300081C572 /* OSKCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A96BA31B40D3300081C572 /* OSKCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A96BA61B40D3300081C572 /* OSKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A96BA41B40D3300081C572 /* OSKCollectionViewCell.m */; };
 		94D5EBE01AF9958C00490632 /* OpenSkyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D5EBDF1AF9958C00490632 /* OpenSkyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94D5EBE61AF9958C00490632 /* OpenSkyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5EBDA1AF9958C00490632 /* OpenSkyKit.framework */; };
 		94D5EBED1AF9958C00490632 /* OpenSkyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5EBEC1AF9958C00490632 /* OpenSkyKitTests.swift */; };
@@ -39,6 +43,10 @@
 		94666F581AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OpenSkyHelpers.m"; sourceTree = "<group>"; };
 		94666F5D1AFF3583001E2F0D /* OSKHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKHelpers.h; sourceTree = "<group>"; };
 		94666F5E1AFF3583001E2F0D /* OSKHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKHelpers.m; sourceTree = "<group>"; };
+		94A96B9E1B40D1370081C572 /* OSKCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKCollectionViewController.h; sourceTree = "<group>"; };
+		94A96B9F1B40D1370081C572 /* OSKCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKCollectionViewController.m; sourceTree = "<group>"; };
+		94A96BA31B40D3300081C572 /* OSKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKCollectionViewCell.h; sourceTree = "<group>"; };
+		94A96BA41B40D3300081C572 /* OSKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKCollectionViewCell.m; sourceTree = "<group>"; };
 		94D5EBDA1AF9958C00490632 /* OpenSkyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenSkyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D5EBDE1AF9958C00490632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D5EBDF1AF9958C00490632 /* OpenSkyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSkyKit.h; sourceTree = "<group>"; };
@@ -92,6 +100,15 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		94A96BA21B40D3140081C572 /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				94A96BA31B40D3300081C572 /* OSKCollectionViewCell.h */,
+				94A96BA41B40D3300081C572 /* OSKCollectionViewCell.m */,
+			);
+			name = "Collection View Cells";
+			sourceTree = "<group>";
+		};
 		94D5EBD01AF9958C00490632 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +133,7 @@
 				94D5EBDF1AF9958C00490632 /* OpenSkyKit.h */,
 				94666F5C1AFF3574001E2F0D /* Helpers */,
 				94666F5B1AFF32BF001E2F0D /* Extensions */,
+				94A96BA21B40D3140081C572 /* Collection View Cells */,
 				94FC9BE51AFB2C5300486572 /* Table View Cells */,
 				94D5EC091AF995D900490632 /* View Controllers */,
 				94D5EBDD1AF9958C00490632 /* Supporting Files */,
@@ -155,6 +173,8 @@
 				94D5EC061AF995CB00490632 /* OSKViewController.m */,
 				94D5EC0E1AF997F200490632 /* OSKTableViewController.h */,
 				94D5EC0F1AF997F200490632 /* OSKTableViewController.m */,
+				94A96B9E1B40D1370081C572 /* OSKCollectionViewController.h */,
+				94A96B9F1B40D1370081C572 /* OSKCollectionViewController.m */,
 				94F5AE881AF99D4900989F27 /* OSKFetchedResultsTableViewController.h */,
 				94F5AE891AF99D4900989F27 /* OSKFetchedResultsTableViewController.m */,
 			);
@@ -180,9 +200,11 @@
 				94D5EC101AF997F200490632 /* OSKTableViewController.h in Headers */,
 				94F5AE8A1AF99D4900989F27 /* OSKFetchedResultsTableViewController.h in Headers */,
 				94FC9BE81AFB2C7500486572 /* OSKTableViewCell.h in Headers */,
+				94A96BA01B40D1370081C572 /* OSKCollectionViewController.h in Headers */,
 				94666F5F1AFF3583001E2F0D /* OSKHelpers.h in Headers */,
 				94666F591AFF32BC001E2F0D /* UIView+OpenSkyHelpers.h in Headers */,
 				94D5EBE01AF9958C00490632 /* OpenSkyKit.h in Headers */,
+				94A96BA51B40D3300081C572 /* OSKCollectionViewCell.h in Headers */,
 				94D5EC071AF995CB00490632 /* OSKViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,7 +255,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "OpenSky, LLC";
 				TargetAttributes = {
 					94D5EBD91AF9958C00490632 = {
@@ -289,6 +311,8 @@
 				94666F5A1AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m in Sources */,
 				94FC9BE91AFB2C7500486572 /* OSKTableViewCell.m in Sources */,
 				94D5EC111AF997F200490632 /* OSKTableViewController.m in Sources */,
+				94A96BA11B40D1370081C572 /* OSKCollectionViewController.m in Sources */,
+				94A96BA61B40D3300081C572 /* OSKCollectionViewCell.m in Sources */,
 				94F5AE8B1AF99D4900989F27 /* OSKFetchedResultsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +358,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -412,6 +437,7 @@
 				INFOPLIST_FILE = OpenSkyKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openskydev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -429,6 +455,7 @@
 				INFOPLIST_FILE = OpenSkyKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openskydev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -447,6 +474,7 @@
 				);
 				INFOPLIST_FILE = OpenSkyKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openskydev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -460,6 +488,7 @@
 				);
 				INFOPLIST_FILE = OpenSkyKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.openskydev.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
