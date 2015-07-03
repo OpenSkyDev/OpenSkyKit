@@ -19,6 +19,7 @@
 
 // MARK: - Extensions
 #import <OpenSkyKit/UIView+OpenSkyHelpers.h>
+#import <OpenSkyKit/UIColor+OpenSkyHelpers.h>
 
 // MARK: - Helpers
 #import <OpenSkyKit/OSKHelpers.h>

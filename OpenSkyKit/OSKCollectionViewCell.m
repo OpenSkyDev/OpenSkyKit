@@ -15,8 +15,6 @@
 
 @implementation OSKCollectionViewCell
 
-
-
 @end
 
 NSString *const kOSKCollectionViewCellIdentifier = @"kOSKCollectionViewCellIdentifier";

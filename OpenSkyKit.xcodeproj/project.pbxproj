@@ -11,6 +11,8 @@
 		94666F5A1AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 94666F581AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m */; };
 		94666F5F1AFF3583001E2F0D /* OSKHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 94666F5D1AFF3583001E2F0D /* OSKHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94666F601AFF3583001E2F0D /* OSKHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 94666F5E1AFF3583001E2F0D /* OSKHelpers.m */; };
+		9491541D1B46527B000B6440 /* UIColor+OpenSkyHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 9491541B1B46527B000B6440 /* UIColor+OpenSkyHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9491541E1B46527B000B6440 /* UIColor+OpenSkyHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 9491541C1B46527B000B6440 /* UIColor+OpenSkyHelpers.m */; };
 		94A96BA01B40D1370081C572 /* OSKCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A96B9E1B40D1370081C572 /* OSKCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94A96BA11B40D1370081C572 /* OSKCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A96B9F1B40D1370081C572 /* OSKCollectionViewController.m */; };
 		94A96BA51B40D3300081C572 /* OSKCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A96BA31B40D3300081C572 /* OSKCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +45,8 @@
 		94666F581AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OpenSkyHelpers.m"; sourceTree = "<group>"; };
 		94666F5D1AFF3583001E2F0D /* OSKHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKHelpers.h; sourceTree = "<group>"; };
 		94666F5E1AFF3583001E2F0D /* OSKHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKHelpers.m; sourceTree = "<group>"; };
+		9491541B1B46527B000B6440 /* UIColor+OpenSkyHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+OpenSkyHelpers.h"; sourceTree = "<group>"; };
+		9491541C1B46527B000B6440 /* UIColor+OpenSkyHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+OpenSkyHelpers.m"; sourceTree = "<group>"; };
 		94A96B9E1B40D1370081C572 /* OSKCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKCollectionViewController.h; sourceTree = "<group>"; };
 		94A96B9F1B40D1370081C572 /* OSKCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKCollectionViewController.m; sourceTree = "<group>"; };
 		94A96BA31B40D3300081C572 /* OSKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKCollectionViewCell.h; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 			children = (
 				94666F571AFF32BC001E2F0D /* UIView+OpenSkyHelpers.h */,
 				94666F581AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m */,
+				9491541B1B46527B000B6440 /* UIColor+OpenSkyHelpers.h */,
+				9491541C1B46527B000B6440 /* UIColor+OpenSkyHelpers.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 				94F5AE8A1AF99D4900989F27 /* OSKFetchedResultsTableViewController.h in Headers */,
 				94FC9BE81AFB2C7500486572 /* OSKTableViewCell.h in Headers */,
 				94A96BA01B40D1370081C572 /* OSKCollectionViewController.h in Headers */,
+				9491541D1B46527B000B6440 /* UIColor+OpenSkyHelpers.h in Headers */,
 				94666F5F1AFF3583001E2F0D /* OSKHelpers.h in Headers */,
 				94666F591AFF32BC001E2F0D /* UIView+OpenSkyHelpers.h in Headers */,
 				94D5EBE01AF9958C00490632 /* OpenSkyKit.h in Headers */,
@@ -306,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9491541E1B46527B000B6440 /* UIColor+OpenSkyHelpers.m in Sources */,
 				94D5EC081AF995CB00490632 /* OSKViewController.m in Sources */,
 				94666F601AFF3583001E2F0D /* OSKHelpers.m in Sources */,
 				94666F5A1AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m in Sources */,
