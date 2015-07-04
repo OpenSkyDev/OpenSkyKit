@@ -28,6 +28,8 @@
 		94F5AE8B1AF99D4900989F27 /* OSKFetchedResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F5AE891AF99D4900989F27 /* OSKFetchedResultsTableViewController.m */; };
 		94FC9BE81AFB2C7500486572 /* OSKTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FC9BE61AFB2C7500486572 /* OSKTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94FC9BE91AFB2C7500486572 /* OSKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FC9BE71AFB2C7500486572 /* OSKTableViewCell.m */; };
+		94FFD31A1B476331008C7F3F /* OSKTableViewSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FFD3181B476331008C7F3F /* OSKTableViewSwitchCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94FFD31B1B476331008C7F3F /* OSKTableViewSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FFD3191B476331008C7F3F /* OSKTableViewSwitchCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		94F5AE891AF99D4900989F27 /* OSKFetchedResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKFetchedResultsTableViewController.m; sourceTree = "<group>"; };
 		94FC9BE61AFB2C7500486572 /* OSKTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKTableViewCell.h; sourceTree = "<group>"; };
 		94FC9BE71AFB2C7500486572 /* OSKTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKTableViewCell.m; sourceTree = "<group>"; };
+		94FFD3181B476331008C7F3F /* OSKTableViewSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKTableViewSwitchCell.h; sourceTree = "<group>"; };
+		94FFD3191B476331008C7F3F /* OSKTableViewSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKTableViewSwitchCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,8 @@
 			children = (
 				94FC9BE61AFB2C7500486572 /* OSKTableViewCell.h */,
 				94FC9BE71AFB2C7500486572 /* OSKTableViewCell.m */,
+				94FFD3181B476331008C7F3F /* OSKTableViewSwitchCell.h */,
+				94FFD3191B476331008C7F3F /* OSKTableViewSwitchCell.m */,
 			);
 			name = "Table View Cells";
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 			files = (
 				94D5EC101AF997F200490632 /* OSKTableViewController.h in Headers */,
 				94F5AE8A1AF99D4900989F27 /* OSKFetchedResultsTableViewController.h in Headers */,
+				94FFD31A1B476331008C7F3F /* OSKTableViewSwitchCell.h in Headers */,
 				94FC9BE81AFB2C7500486572 /* OSKTableViewCell.h in Headers */,
 				94A96BA01B40D1370081C572 /* OSKCollectionViewController.h in Headers */,
 				9491541D1B46527B000B6440 /* UIColor+OpenSkyHelpers.h in Headers */,
@@ -314,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9491541E1B46527B000B6440 /* UIColor+OpenSkyHelpers.m in Sources */,
+				94FFD31B1B476331008C7F3F /* OSKTableViewSwitchCell.m in Sources */,
 				94D5EC081AF995CB00490632 /* OSKViewController.m in Sources */,
 				94666F601AFF3583001E2F0D /* OSKHelpers.m in Sources */,
 				94666F5A1AFF32BC001E2F0D /* UIView+OpenSkyHelpers.m in Sources */,

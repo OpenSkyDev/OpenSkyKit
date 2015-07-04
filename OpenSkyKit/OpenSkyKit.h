@@ -12,6 +12,7 @@
 #import <OpenSkyKit/OSKTableViewController.h>
 #import <OpenSkyKit/OSKFetchedResultsTableViewController.h>
 #import <OpenSkyKit/OSKTableViewCell.h>
+#import <OpenSkyKit/OSKTableViewSwitchCell.h>
 
 // MARK: - Collection View
 #import <OpenSkyKit/OSKCollectionViewController.h>

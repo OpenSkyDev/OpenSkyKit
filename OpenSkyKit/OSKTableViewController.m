@@ -21,7 +21,7 @@
 - (instancetype)initWithStyle:(UITableViewStyle)style {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
-        self.tableViewStyle = UITableViewStylePlain;
+        self.tableViewStyle = style;
     }
     return self;
 }
